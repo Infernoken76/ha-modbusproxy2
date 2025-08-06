@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# This file is part of the modbus-proxy project
+# This file is part of the modbus-proxy2 project
 #
 # Copyright (c) 2020-2021 Tiago Coutinho
 # Distributed under the GPLv3 license. See LICENSE for more info.
@@ -28,7 +28,7 @@ DEFAULT_LOG_CONFIG = {
     "root": {"handlers": ["console"], "level": "INFO"},
 }
 
-log = logging.getLogger("modbus-proxy")
+log = logging.getLogger("modbus-proxy2")
 
 
 def parse_url(url):
