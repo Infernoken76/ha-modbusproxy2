@@ -1,20 +1,20 @@
-name: "modbus-proxy"
+name: "modbus-proxy2"
 description: "Proxy for Accessing modbus systems. Allows multiple client connections"
-version: "1.0.18"
-slug: "modbus_proxy"
+version: "1.0.0"
+slug: "modbus_proxy2"
 arch:
   - aarch64
   - amd64
   - armhf
   - armv7
-url: "https://community.home-assistant.io/t/updated-solaredge-modbus-full-setup-guide-with-energy-dashboard-integration-for-installations-with-battery-connected/340956/216?u=akulatraxas"
+url: "https://github.com/Infernoken76/ha-modbusproxy1"
 startup: services
 init: false
 options:
-  upstreamhost: "192.168.178.74"
+  upstreamhost: "192.168.1.80"
   upstreamport: 502
-  listenport: 502
-  connection_time: 0.1
+  listenport: 503
+  connection_time: 2
   timeout: 10
   loglevel: "INFO"
 schema:
