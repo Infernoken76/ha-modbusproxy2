@@ -1,13 +1,13 @@
 name: "modbus-proxy2"
 description: "Proxy for Accessing modbus systems. Allows multiple client connections"
-version: "1.0.0"
+version: "1.0.1"
 slug: "modbus_proxy2"
 arch:
   - aarch64
   - amd64
   - armhf
   - armv7
-url: "https://github.com/Infernoken76/ha-modbusproxy1"
+url: "https://github.com/Infernoken76/ha-modbusproxy2"
 startup: services
 init: false
 options:
